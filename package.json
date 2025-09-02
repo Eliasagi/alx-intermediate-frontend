@@ -1,26 +1,15 @@
 {
-  "name": "alx-intermediate-frontend",
+  "name": "0x02-tailwind-css",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Eliasagi/alx-intermediate-frontend.git"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Eliasagi/alx-intermediate-frontend/issues"
-  },
-  "homepage": "https://github.com/Eliasagi/alx-intermediate-frontend#readme",
-  "devDependencies": {
-    "tailwindcss": "^4.1.12"
-  },
+  "description": "",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.12"
+    "tailwindcss": "^3.4.3"
   }
 }
